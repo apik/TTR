@@ -3,7 +3,7 @@
 //
 //   Generator of FORM tensor reduction tables for tadpole integrals
 //
-//   Based on ideas from [arXiv:1701.014], and use FireFly for matrix inversion
+//   Based on ideas from [arXiv:1701.01404], and use FireFly for matrix inversion
 //
 //   Andrey Pikelner, 2023
 //
