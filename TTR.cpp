@@ -3,31 +3,32 @@
 //
 //   Generator of FORM tensor reduction tables for tadpole integrals
 //
-//   Based on ideas from [arXiv:1701.01404], and use FireFly for matrix inversion
+//   Based on ideas from [arXiv:1701.01404], and use FireFly for matrix
+//   inversion
 //
 //   Andrey Pikelner, 2023
 //
 //
 //   Usage: echo "p1(mu1)*p2(mu2)..." | ./TTR [options]
-// 
-// 
+//
+//
+#include<cstdint>
 #include "firefly/DenseSolver.hpp"
 #include "firefly/Reconstructor.hpp"
 #include <bitset>
 #include <cmath>
+#include <deque>
 #include <fstream>
 #include <iostream>
 #include <list>
 #include <map>
 #include <numeric>
 #include <set>
-#include <utility>
-#include <deque>
-#include <unordered_map>
 #include <sstream>
+#include <unordered_map>
+#include <utility>
 
-
-using std::cout;
+    using std::cout;
 using std::cin;
 using std::string;
 using std::ostringstream;
